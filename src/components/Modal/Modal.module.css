@@ -1,0 +1,42 @@
+.Modal_Background{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.Modal{ 
+    position: absolute;
+    background-color: #FFFFFF;
+    z-index: 9999;
+    min-width: 300px;
+    position: relative;
+}
+
+.Modal_CloseIcon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    top:30px;
+    cursor: pointer;
+}
+
+.Modal_CloseIcon::before,
+.Modal_CloseIcon::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px; 
+    background-color: black;
+    top:9px;
+}
+
+.Modal_CloseIcon::after{
+    transform: rotate(45deg);
+}
+.Modal_CloseIcon::before{
+    transform: rotate(-45deg);
+}
+

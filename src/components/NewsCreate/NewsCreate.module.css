@@ -1,0 +1,125 @@
+.NewsCreate_Button{
+    width: 91px;
+    height: 100%;
+    background-color:#F8F8F8;
+    border:none;
+    margin-left:20px;
+    cursor:pointer;
+    position:relative;
+}
+.NewsCreate_Button:hover{
+    background-color:#F0F0F0;
+
+}
+
+.NewsCreate_Modal{
+    padding:60px 120px 60px 120px;
+    background: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.NewsCreate_Title{
+    margin:0;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color:#333;
+}
+.NewsCreate_Decription{
+    font-size: 16px;
+    margin-top:14px;
+}
+.NewsTemplate{
+    display: flex;
+    background-color: #F8F8F8;
+    width: 1009px;
+    padding: 40px 50px 40px 50px;
+    box-sizing: border-box;
+    margin-top:53px;
+}
+.NewsTemplate_Item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.NewsTemplate_Img{
+    width: 205px;
+    height: 205px;
+    box-sizing: border-box;
+    background-color: #E1E1E1;
+    display: flex;
+}
+.NewsTemplate_Img_Wrapper{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.NewsTemplate_Data{
+    margin-left:80px;
+    width: 100%;
+    flex:1;
+}
+.Item_Label{
+    font-size: 14px;
+    font-weight: 700;
+}
+.Item_Input{
+    border:none;
+    background: none;
+    padding:10px 10px;
+    font-size: 18px;
+    font-family: inherit;
+    box-sizing:border-box;
+}
+
+.NewsButton{
+    height:68px;
+    background-color:#B2ACF4;
+    border:none;
+    cursor:pointer;
+    color:white;
+    font-size:14px;
+    font-weight:800;
+    width: 500px;
+    margin-top:44px;
+}
+
+.NewsTemplate_Item_Feedback{
+    color:red;
+    font-size:12px;
+}
+
+@media (max-width: 700px) {
+    .NewsCreate_Modal{
+        position:relative;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        transform:none;
+        padding:0;
+        padding:50px 10px 0px 10px;
+        box-sizing:border-box;
+    }
+    .NewsTemplate{
+        padding:0;
+        width:100%;
+        align-items:center;
+        padding:10px 0px
+    }
+    .NewsTemplate_Data{
+        margin:0;
+        margin-left:10px;
+    }
+    .NewsTemplate_Img{
+        width:100px;
+        height:100px;
+    }
+
+}
+

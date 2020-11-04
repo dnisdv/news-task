@@ -1,0 +1,52 @@
+.Search{
+    width: 100%;
+}
+
+.SearchInput{
+    padding: 35px 45px 35px 45px;
+    width: 100%;
+    background-color: #F8F8F8;
+    border:none;
+    position: relative;
+    box-sizing: border-box;
+}
+.SearchForm{
+    position: relative;
+    width: 100%;
+}
+.SearchLabel{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:50%;
+    right:2%;
+    cursor: pointer;
+    z-index: 9999;
+    transition-all:.4s;
+    animation: fade .4s ease;
+}
+@keyframes fade{
+    from{
+        opacity:0
+    }
+    to{
+        opacity: 1
+    }
+}
+
+.SearchLabel::before,
+.SearchLabel::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px; 
+    background-color: black;
+    top:0px;
+}
+
+.SearchLabel::after{
+    transform: rotate(45deg);
+}
+.SearchLabel::before{
+    transform: rotate(-45deg);
+}

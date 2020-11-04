@@ -1,0 +1,31 @@
+.Main{
+    height: calc(100vh - 135px);
+    display:flex;
+    align-items: center;
+}
+
+.Title{
+    margin:0;
+    font-size: 151px;
+    font-weight: 700;
+    width: 540px;
+    line-height: 92.5%;
+    transform: translateY(-50%);
+    color: #333;
+    z-index: -1;
+}
+.User{
+    color:#b1abfd;
+}
+
+
+@media (max-width: 700px) {
+    .Title{
+        font-size:82px;
+    }
+}
+@media (max-width: 400px) {
+    .Title{
+        font-size:62px;
+    }
+}

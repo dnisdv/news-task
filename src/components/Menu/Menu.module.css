@@ -1,0 +1,22 @@
+.Menu{
+    padding:57px 0px;
+}
+
+.Menu_List{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display: flex;
+}
+.List_Item{
+    margin-left:40px;
+}
+.List_Item:first-child{
+    margin-left:0px;
+}
+.Item_Title{
+    margin:0;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}

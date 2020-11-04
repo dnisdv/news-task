@@ -1,0 +1,80 @@
+.Auth_Title{
+    margin:0;
+    color:#333;
+    font-size:36px;
+    font-weight:700;
+    text-align:center;
+}
+.Auth_Form{
+    display: flex;
+    flex-direction: column;
+}
+.AuthButton{
+    margin-top:22px;
+}
+.Modal{
+    position:absolute;
+    width: 427px;
+    height: 367px;
+    background-color: white;;
+    padding:60px 160px 100px 160px;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%)
+}
+.Form_Input{
+    height:68px;
+    background-color:#F8F8F8;
+    border:none;
+    padding-left:20px;
+    margin-top:5px;
+}
+.Form_Input:first-child{
+    margin-top:16px;
+}
+
+.AuthButton{
+    height:68px;
+    background-color:#B2ACF4;
+    border:none;
+    cursor:pointer;
+    color:white;
+    font-size:14px;
+    font-weight:800;
+}
+.Input_Wrapper{
+    margin-top:22px;
+    display:flex;
+    flex-direction:column;
+}
+.FormLabel{
+    font-size:14px;
+    font-weight:bold;
+}
+.Feedback{
+    color:red;
+    margin-top:5px;
+    font-size: 14px;
+        display:flex;
+    justify-content:center;
+}
+
+.FormError_Feedback{
+    color:red;
+    font-size:12px;
+
+}
+
+@media (max-width: 700px) {
+    .Modal{
+        position:relative;
+        width:100%;
+        height:100vh;
+        top:0;
+        left:0;
+        transform:translateX(0%) translateY(0);
+        padding:0;
+        padding:50px 10px 0px 10px;
+        box-sizing:border-box;
+    }
+}
