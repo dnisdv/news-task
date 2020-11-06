@@ -16,3 +16,16 @@ $ npm install
 ```
 $ npm start
 ```
+
+### Login credentials *demo :
+
+#### admin
+```
+username: Giorno
+password: demo
+```
+#### user
+```
+username: bruno
+password: demo
+```
