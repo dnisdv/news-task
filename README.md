@@ -2,6 +2,9 @@
 
 <img src="https://i.imgur.com/ZmWewtD.png" />
 
+### Demo
+https://new-task0.herokuapp.com
+
 ### Usage:
 1. Clone repo on your local machine:
 ```
