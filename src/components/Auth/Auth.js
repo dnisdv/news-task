@@ -86,7 +86,10 @@ const Auth = ({open, setModal}) => {
                     <div>
                         <h2 className={styles.Auth_Title}>Авторизация</h2>
                             {user.error && user.error.login ? <span className={styles.Feedback}>{user.error.login.msg}</span> : "" }
-
+                            <div className={styles.DemoCredentials}>
+                                <span className={styles.LoginCredentials}><span style={{fontWeight: "900"}}>jeremaya:demo</span>(*user)</span>
+                                <span className={styles.LoginCredentials}><span style={{fontWeight: "900"}}>Giorno:demo</span>(*admin)</span>
+                            </div>
                         <form className={styles.Auth_Form} onSubmit={onSubmit}>
                             <div className={styles.Input_Wrapper}>
                                 <label className={styles.FormLabel} htmlFor="authLogin">Логин</label>

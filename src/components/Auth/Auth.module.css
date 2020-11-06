@@ -64,7 +64,14 @@
     font-size:12px;
 
 }
-
+.DemoCredentials{
+    display: flex;
+    flex-direction: column;
+    color:rgb(0, 0, 0)
+}
+.LoginCredentials{
+    margin-top:10px;
+}
 @media (max-width: 700px) {
     .Modal{
         position:relative;

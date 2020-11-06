@@ -2,6 +2,9 @@
 
 <img src="https://i.imgur.com/ZmWewtD.png" />
 
+### Demo
+https://new-task0.herokuapp.com
+
 ### Usage:
 1. Clone repo on your local machine:
 ```
@@ -15,4 +18,17 @@ $ npm install
 4. And run it:
 ```
 $ npm start
+```
+
+### Login credentials *demo :
+
+#### admin
+```
+username: Giorno
+password: demo
+```
+#### user
+```
+username: bruno
+password: demo
 ```
