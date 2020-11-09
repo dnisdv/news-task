@@ -2,6 +2,7 @@
     height: calc(100vh - 135px);
     display:flex;
     align-items: center;
+    min-height: 550px;
 }
 
 .Title{
@@ -23,9 +24,15 @@
     .Title{
         font-size:82px;
     }
+    .Main{
+        min-height: 250px;
+    }
 }
 @media (max-width: 400px) {
     .Title{
         font-size:62px;
+    }
+    .Main{
+        min-height: 150px;
     }
 }

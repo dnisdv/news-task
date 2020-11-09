@@ -45,4 +45,8 @@
         margin:0;
         margin-top:20px;
     }
+    .NewsPage_Title{
+        width: 100%;
+        font-size: 50px;
+    }
 }

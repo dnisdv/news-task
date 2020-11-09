@@ -118,13 +118,13 @@ return(
                 <div className={styles.NewsTemplate_Data}>
                     <div className={styles.NewsTemplate_Item}>  
                         <label htmlFor="templatetitle" className={styles.Item_Label} >Заголовок</label>
-                        <input onChange={changeInput} name="title" id="templatetitle" type="text" className={styles.Item_Input} placeholder='В Индии врач купил у мошенников "лампу Алладина" за $90 тысяч' />
+                        <input onChange={changeInput} name="title" id="templatetitle" type="text" className={styles.Item_Input_Title} placeholder='В Индии врач купил у мошенников "лампу Алладина" за $90 тысяч' />
                         {form.isError.title ? <span className={styles.NewsTemplate_Item_Feedback}>{form.isError.title}</span> : "" }
                     </div>
 
                     <div className={styles.NewsTemplate_Item}>
                         <label htmlFor="templatedescr" className={styles.Item_Label} >Описание</label>
-                        <textarea onChange={changeInput} name="description" id="templatedescr" type="text" className={styles.Item_Input} placeholder="В Индии арестовали двоих подозреваемых в мошенничестве, которые продали «лампу Алладина» и даже показали покупателю «джина»." />
+                        <textarea onChange={changeInput} name="description" id="templatedescr" type="text" className={styles.Item_Input_Description} placeholder="В Индии арестовали двоих подозреваемых в мошенничестве, которые продали «лампу Алладина» и даже показали покупателю «джина»." />
                         {form.isError.description ? <span className={styles.NewsTemplate_Item_Feedback}>{form.isError.description}</span> : "" }
                     </div>
                 </div>

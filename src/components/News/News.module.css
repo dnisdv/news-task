@@ -80,7 +80,9 @@
 
 @media (max-width: 700px) {
     .Item_Img{
-        width:120px;
+        max-width: 120px;
+        min-width: 80px;
+        width:16.25vw;
         height:120px;
     }
     .Item_Data{
@@ -109,5 +111,30 @@
         height: 35px;
         border:none;
         cursor: pointer;
+    }
+    .Item_Description{
+        max-width: 100%;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 526px){
+    .News_Item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Item_Img{
+        width: 250px;
+        height: auto;
+        max-width: inherit;
+        width: 100%;
+        max-height: 170px;
+    }
+    .Item_Data{
+        margin:0;
+        margin-top:20px
     }
 }
